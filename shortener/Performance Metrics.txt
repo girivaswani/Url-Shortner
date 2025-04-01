@@ -1,0 +1,31 @@
+While creating short URLS(Old):
+Time taken for tests:1.642 seconds
+Requests per second:60.90
+Time per request:164.201
+Failed requests:0
+While creating short URLS(Old 2):
+Requests per second:53.04
+Time per request:188.520
+Failed requests:0
+While creating short URLS(Old 3):
+Requests per second:57.09
+Time per request:175.151
+Failed requests:0
+While creating short URLS Without Redis:
+Time taken for tests:   1.625 seconds
+Requests per second:61.55
+Time per request:162.47
+Failed requests:0
+While Getting long URLS Without Redis:
+Requests per second:45.01
+Time per request:223.0
+Failed requests:0
+While creating short URLS With Redis:
+Time taken for tests:   1.804 seconds
+Requests per second:55.43
+Time per request:180.398
+Failed requests:0
+While Getting long URLS With Redis:
+Requests per second:228.51
+Time per request: 43.89
+Failed requests:0

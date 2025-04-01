@@ -1,0 +1,55 @@
+# Python-specific ignores
+*.pyc
+__pycache__/
+.Python
+env/
+venv/
+*.egg-info/
+.DS_Store
+
+# Django-specific ignores
+local_settings.py
+db.sqlite3
+media/  # If you're using Django's media storage and don't want to track user uploads
+
+# Static files (often collected in a specific directory for deployment)
+static/
+
+# Byte-compiled / optimized / tested files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code specific ignores (if you use VS Code)
+.vscode/
+*.swp
+*.swo
+
+# PyCharm specific ignores (if you use PyCharm)
+.idea/
+
+# Editor/IDE backups
+*~
+*.bak
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Docker related (if you're using Docker)
+.dockerenv
+docker-compose.yml
+docker-compose.*.yml
+Dockerfile
+
+# Redis socket file (if applicable and not in a standard location)
+redis.sock
+
+# Any other files or directories you want to ignore
+# Example: sensitive configuration files
+config.ini
